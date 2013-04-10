@@ -1,0 +1,39 @@
+{
+  "name": "mesh-geodesic",
+  "version": "0.0.0",
+  "description": "Approximate geodesic distance for triangulated meshes",
+  "main": "geodesic.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "heap": "~0.2.1",
+    "simplicial-complex": "~0.3.3"
+  },
+  "devDependencies": {
+    "grid-mesh": "~0.1.0",
+    "sphere-mesh": "~0.2.1",
+    "vows": "~0.7.0"  
+  },
+  "scripts": {
+    "test": "node test/metric.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/mesh-geodesic.git"
+  },
+  "keywords": [
+    "mesh",
+    "geodesic",
+    "triangle",
+    "topology",
+    "riemannian",
+    "geometry",
+    "approximate",
+    "surface"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "a12d27b4ff5f13dc34c1b91e65b942fefccc7b73"
+}
