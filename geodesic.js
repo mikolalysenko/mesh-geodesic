@@ -1,0 +1,1 @@
+module.exports = require("./lib/geodesic.js").geodesic_distance
