@@ -1,21 +1,21 @@
-geodesic-distance
-=================
+mesh-geodesic
+=============
 Computes the [geodesic](http://en.wikipedia.org/wiki/Geodesic) distance to all vertices in a triangulated mesh from a given starting vertex.
 
 Usage
 =====
 First install using npm:
       
-    npm install geodesic
+    npm install mesh-geodesic
     
 Then call it as follows:
 
 ```javascript
 var bunny = require("bunny")
-console.log(require("geodesic-distance")(bunny.cells, bunny.positions, 0))
+console.log(require("mesh-geodesic")(bunny.cells, bunny.positions, 0))
 ```
 
-### `require("geodesic-distance")(cells, positions, initialVertex[, maxDistance, tolerance, dual])`
+### `require("mesh-geodesic")(cells, positions, initialVertex[, maxDistance, tolerance, dual])`
 Computes the geodesic distance to an initial vertex.  Takes the following arguments:
 
 * `cells`: The cells of the mesh
