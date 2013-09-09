@@ -1,6 +1,6 @@
 {
   "name": "mesh-geodesic",
-  "version": "0.0.0",
+  "version": "0.0.0a",
   "description": "Approximate geodesic distance for triangulated meshes",
   "main": "geodesic.js",
   "directories": {
